@@ -1,0 +1,11 @@
+groups:
+  - name: Elastic Search Configuration
+    description: Configure Elastic Search
+  - name: User and Group Configuration
+    description: Configure User and Group for Elastic Search
+  - name: Network Configuration
+    description: Configure Network for Elastic Search
+  - name: Storage Configuration
+    description: Configure Storage for Elastic Search
+  - name: Resources Configuration
+    description: Configure Resources for Elastic Search

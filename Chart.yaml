@@ -1,0 +1,25 @@
+name: nginx
+description: nginx [engine x] is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server.
+annotations:
+  title: nginx
+type: application
+version: 1.26.0
+apiVersion: v2
+appVersion: 8.13.4
+kubeVersion: '>=1.16.0-0'
+maintainers:
+  - name: IAmHafid
+    url: https://github.com/IAmHafid
+    email: atlas-develop@proton.me
+dependencies:
+  - name: common
+    repository: file://../../../common
+    version: 1.2.9
+home: https://nginx.org/
+icon: https://media.sys.truenas.net/apps/elastic-search/icons/icon.svg
+sources:
+  - https://www.elastic.co/
+  - https://hub.docker.com/_/nginx
+keywords:
+  - server
+  - http
