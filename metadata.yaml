@@ -1,0 +1,8 @@
+runAsContext:
+  - userName: nginx-scale
+    groupName: nginx-scale
+    gid: 1000
+    uid: 1000
+    description: Nginx runs as non-root user.
+capabilities: []
+hostMounts: []
