@@ -18,7 +18,6 @@ dependencies:
 home: https://nginx.org/
 icon: https://media.sys.truenas.net/apps/elastic-search/icons/icon.svg
 sources:
-  - https://www.elastic.co/
   - https://hub.docker.com/_/nginx
 keywords:
   - server
