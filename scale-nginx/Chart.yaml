@@ -12,9 +12,9 @@ maintainers:
     url: https://github.com/IAmHafid
     email: atlas-develop@proton.me
 dependencies:
-  - name: common
-    repository: file://../../../common
-    version: 1.2.9
+  #- name: common
+   # repository: file://../../../common
+    #version: 1.2.9
 home: https://nginx.org/
 icon: https://media.sys.truenas.net/apps/elastic-search/icons/icon.svg
 sources:

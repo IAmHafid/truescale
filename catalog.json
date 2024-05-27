@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "catalog": {
+    "type": "helm",
+    "location": "https://github.com/IAmHafid/truescale/"
+  },
+  "charts": {
+    "scale-nginx": {
+      "location": "scale-nginx/",
+      "name": "Nginx",
+      "description": "Nginx app for Truenas scale",
+      "version": "0.1.0",
+      "categories": ["Example", "Test"]
+    }
+  }
+}
