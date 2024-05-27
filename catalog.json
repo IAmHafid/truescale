@@ -1,16 +1,35 @@
 {
-  "version": "1.0.0",
-  "catalog": {
-    "type": "helm",
-    "location": "https://github.com/IAmHafid/truescale/"
-  },
-  "charts": {
-    "scale-nginx": {
-      "location": "scale-nginx/",
-      "name": "Nginx",
+  "charts": {},
+  "test": {},
+  "incubator": {
+    "Nginx": {
+      "categories": [
+        "test"
+      ],
       "description": "Nginx app for Truenas scale",
-      "version": "0.1.0",
-      "categories": ["Example", "Test"]
+      "healthy": true,
+      "healthy_error": null,
+      "home": "https://github.com/IAmHafid/truescale/tree/main/scale-nginx",
+
+      "latest_version": "1.0.0",
+      "latest_app_version": "1.28.5",
+      "latest_human_version": "1.28.5_1.0.4",
+      "last_update": "2024-05-27 18:31:51",
+      "name": "Nginx",
+      "recommended": false,
+      "title": "Nginx",
+      "maintainers": [
+        {
+          "name": "Hafid",
+          "email": "hafid.meliani@pm.me",
+          "url": "https://github.com/IAmHafid"
+        }
+      ],
+      "tags": [],
+      "screenshots": [],
+      "sources": [
+        "https://github.com/IAmHafid/truescale/tree/main/scale-nginx"
+      ]
     }
   }
 }
