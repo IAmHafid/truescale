@@ -9,3 +9,10 @@ groups:
     description: Configure Storage for Elastic Search
   - name: Resources Configuration
     description: Configure Resources for Elastic Search
+questions:
+  - variable: replicaCount
+    question: "How many replicas do you want?"
+    type: int
+    default: 1
+    required: true
+    description: "The number of replicas for the Nginx deployment"
