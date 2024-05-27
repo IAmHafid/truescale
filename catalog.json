@@ -3,9 +3,7 @@
   "test": {},
   "incubator": {
     "Nginx": {
-      "categories": [
-        "test"
-      ],
+      "categories": ["Web Server"],
       "description": "Nginx app for Truenas scale",
       "healthy": true,
       "healthy_error": null,
@@ -29,7 +27,8 @@
       "screenshots": [],
       "sources": [
         "https://github.com/IAmHafid/truescale/tree/main/scale-nginx"
-      ]
+      ],
+      "icon_url": "https://truecharts.org/img/hotlink-ok/chart-icons/external-dns.webp"
     }
   }
 }

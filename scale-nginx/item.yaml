@@ -1,7 +1,8 @@
-icon_url: ./icons/icon.svg
-screenshots: []
 categories:
-  - web
-tags:
-  - nginx
-  - server
+  - Web Server
+name: scale-nginx
+description: An example chart for Nginx on TrueNAS Scale
+versions:
+  - version: 1.0.0
+    location: 1.0.0
+    icon: icon.png
