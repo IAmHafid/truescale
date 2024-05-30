@@ -2,8 +2,8 @@
   "charts": {},
   "test": {},
   "incubator": {
-    "Nginx": {
-      "categories": ["Net"],
+    "nginx": {
+      "categories": ["Network"],
       "description": "Nginx app for Truenas scale",
       "healthy": true,
       "healthy_error": null,
