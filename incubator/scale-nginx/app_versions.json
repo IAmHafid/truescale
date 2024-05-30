@@ -12,6 +12,13 @@
       "name": "scale-nginx"
     },
     "app_metadata":  {},
-    "schema": {}
+    "schema": {
+      "groups": [
+        {
+          "name": "General Settings",
+          "description": "General Deployment Settings"
+        }
+      ]
+    }
   }
 }
