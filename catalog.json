@@ -15,7 +15,7 @@
       "latest_human_version": "1.0.0",
       "name": "scale-nginx",
       "recommended": false,
-      "title": "Nginx",
+      "title": "scale-nginx",
       "maintainers": [
         {
           "name": "Hafid",
