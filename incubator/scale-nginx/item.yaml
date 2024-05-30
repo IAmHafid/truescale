@@ -1,8 +1,8 @@
 categories:
   - Networking
 name: scale-nginx
-description: An example chart for Nginx on TrueNAS Scale
+description: "Nginx server application for TrueNAS Scale"
+icon: "./icon.png"
 versions:
   - version: 1.0.0
     location: 1.0.0
-    icon: icon.png
