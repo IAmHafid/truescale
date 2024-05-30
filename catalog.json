@@ -3,7 +3,7 @@
   "test": {},
   "incubator": {
     "Nginx": {
-      "categories": ["Web Server"],
+      "categories": ["Net"],
       "description": "Nginx app for Truenas scale",
       "healthy": true,
       "healthy_error": null,
