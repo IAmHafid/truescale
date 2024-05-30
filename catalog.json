@@ -2,7 +2,7 @@
   "charts": {},
   "test": {},
   "incubator": {
-    "nginx": {
+    "scale-nginx": {
       "categories": ["Network"],
       "description": "Nginx app for Truenas scale",
       "healthy": true,
