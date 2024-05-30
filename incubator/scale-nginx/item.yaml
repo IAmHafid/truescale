@@ -1,5 +1,5 @@
 categories:
-  - Web Server
+  - Networking
 name: scale-nginx
 description: An example chart for Nginx on TrueNAS Scale
 versions:
