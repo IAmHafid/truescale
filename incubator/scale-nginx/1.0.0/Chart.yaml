@@ -16,7 +16,7 @@ dependencies:
    # repository: file://../../../common
     #version: 1.2.9
 home: https://nginx.org/
-icon: https://media.sys.truenas.net/apps/elastic-search/icons/icon.svg
+icon: https://github.com/IAmHafid/truescale/blob/main/incubator/scale-nginx/icon.png
 sources:
   - https://hub.docker.com/_/nginx
 keywords:
