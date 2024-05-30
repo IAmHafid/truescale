@@ -1,16 +1,11 @@
 groups:
-  - name: Image
-    description: |
-      Configured the images to be used for the Chart.
-      It's wise to use "digest pinned" tags and to avoid using "latest".
-
-      Checkout the following documentation for more information:
-      - https://truecharts.org/common/#images
+  - name: General Settings
+    description: General Deployment Settings
 
 
 questions:
   - variable: global
-    group: General
+    group: General Settings
     label: "Global Settings"
     schema:
       additional_attrs: true
