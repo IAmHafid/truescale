@@ -15,10 +15,11 @@ dependencies:
   #- name: common
    # repository: file://../../../common
     #version: 1.2.9
-home: https://nginx.org/
-icon: https://github.com/IAmHafid/truescale/blob/main/incubator/scale-nginx/icon.png
+home: https://github.com/IAmHafid/truescale/tree/main/incubator/scale-nginx
+icon: https://github.com/IAmHafid/truescale/tree/main/incubator/scale-nginx/icon.png
 sources:
   - https://hub.docker.com/_/nginx
 keywords:
+  - nginx
   - server
   - http

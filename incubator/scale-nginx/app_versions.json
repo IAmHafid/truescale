@@ -1,0 +1,46 @@
+{
+  "1.0.0": {
+    "healthy": true,
+    "supported": false,
+    "healthy_error":  null,
+    "location": "/home/runner/_work/catalog/catalog/incubator/scale-nginx/1.0.0",
+    "last_update": "2024-05-30 00:00:00",
+    "required_features":  [],
+    "human_version": "2.0.0",
+    "version": "2.0.0",
+    "chart_metadata": {
+      "name": "scale-nginx"
+    },
+    "app_metadata":  {},
+    "schema": {
+      "groups": [
+        {
+          "name": "General Settings",
+          "description": "General Deployment Settings"
+        }
+      ],
+      "questions": [
+        {
+          "variable": "global",
+          "group": "General Settings",
+          "label": "Global Settings",
+          "schema":{
+            "additional_attrs": true,
+            "type": "dict",
+            "attrs": [
+              {
+                "variable": "stopAll",
+                "label": "Stop All",
+                "description": "Stops All Running pods and hibernates cnpg",
+                "schema": {
+                  "type": "boolean",
+                  "default": false
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
